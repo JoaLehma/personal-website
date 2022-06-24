@@ -45,16 +45,8 @@ body {
 .aboutme {
   background-color: white;
   color: teal;
-  display: inline-block;
-  border-style: solid;
-  border-color: teal;
-  border-radius: 2rem;
-  border-width: 0.4rem;
-  padding: 1rem;
-  border-radius: 2rem;
   margin-bottom: 5rem;
-  font-size: small;
-  align-items: center;
+  text-align: center;
 }
 
 .text-area {
@@ -85,7 +77,14 @@ body {
 .mediaboxes {
   width: 25rem;
   height: 5rem;
-  background-color: teal;
+  background-color: white;
   border-radius: 20px;
-  box-shadow: 1rem 1rem 1rem rgb(12, 89, 88) inset;
+  border: solid;
+  border-width: 0.1 rem;
+  box-shadow: 1rem 1rem 1rem rgb(12, 89, 88);
+}
+
+.emaillogo {
+  width: 25%;
+  padding: 1rem;
 }
