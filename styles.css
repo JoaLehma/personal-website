@@ -84,7 +84,10 @@ body {
   border-width: 0.1 rem;
   box-shadow: 1rem 1rem 1rem rgb(12, 89, 88);
   color: teal;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .mediaboxes:hover {
@@ -93,7 +96,6 @@ body {
   cursor: pointer;
 }
 
-.emaillogo {
-  width: 30%;
-  padding: 1rem;
+.buttonlogos {
+  width: 4rem;
 }
