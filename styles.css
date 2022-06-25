@@ -33,6 +33,7 @@ body {
   border-width: 1.5rem;
   border-color: white;
   margin-top: 8rem;
+  min-width: 13rem;
 }
 
 .container-image-me {
