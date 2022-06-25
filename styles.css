@@ -77,15 +77,17 @@ body {
 .mediaboxes {
   width: 25rem;
   height: 5rem;
-  background-color: teal;
+  background-color: white;
   border-radius: 20px;
   border: solid;
   border-width: 0.1 rem;
   box-shadow: 1rem 1rem 1rem rgb(12, 89, 88);
+  color: teal;
 }
 
-mediaboxes:hover {
-  background-color: white;
+.mediaboxes:hover {
+  background-color: teal;
+  color: white;
 }
 
 .emaillogo {
