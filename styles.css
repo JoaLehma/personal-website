@@ -83,11 +83,13 @@ body {
   border-width: 0.1 rem;
   box-shadow: 1rem 1rem 1rem rgb(12, 89, 88);
   color: teal;
+  margin-bottom: 10rem;
 }
 
 .mediaboxes:hover {
   background-color: teal;
   color: white;
+  cursor: pointer;
 }
 
 .emaillogo {
