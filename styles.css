@@ -14,6 +14,8 @@ body {
   max-width: fit-content;
 }
 
+/* ---- HEADER MIT BILDERN ---*/
+
 .image-forest {
   border-radius: 2rem;
   width: 100%;
@@ -43,18 +45,48 @@ body {
   justify-content: center;
 }
 
-.aboutme {
-  background-color: white;
-  color: teal;
-  margin-bottom: 5rem;
+/* --- NAVIGATION --- 
+
+.menu {
+  background-color: teal;
+  max-width: 107rem;
+  min-width: none;
+  height: 7rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-button {
+  width: 15rem;
+  background-color: aqua;
+  height: 5rem;
+  border-radius: 2rem;
+  color: white;
   text-align: center;
 }
+*/
+
+/* --- ÜBERSCHRIFT ABOUT ME --- */
+
+.aboutme {
+  color: teal;
+  margin-bottom: 4rem;
+  text-align: center;
+  border-top: dashed 1px teal;
+  border-bottom: dashed 1px teal;
+}
+
+/* --- TEXT BOXEN: INTERESSEN SKILLS JOBWÜNSCHE */
 
 .text-area {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
+  border-bottom: dashed 1px teal;
+  padding-bottom: 2rem;
 }
 
 .text-container {
@@ -66,6 +98,8 @@ body {
   height: 22rem;
   box-shadow: 1rem 1rem 1rem rgb(12, 89, 88) inset;
 }
+
+/* --- SOCIAL MEDIA BUTTONS --- */
 
 .socialmedia {
   display: flex;
