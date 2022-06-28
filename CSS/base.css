@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 3rem;
+  padding: 3rem;
+  max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:root {
+  --primary-color: teal;
+  --primary-contrast-color: white;
+  --border-radius: 2rem;
+}

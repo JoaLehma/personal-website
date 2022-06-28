@@ -17,34 +17,37 @@
     <!----- HEADER MIT BILDERN ----->
 
     <header>
-      <div class="container-image-forest">
+      <div class="header_container_backgroundimg">
         <img
-          class="image-forest"
+          class="header_backgroundimg"
           src="/img/top-background.jpeg"
           alt="Hintergrundbild mit Bergen"
         />
       </div>
-      <div class="container-image-me">
-        <img class="image-me" src="/img/Me.jpg" alt="Ein Bild von mir" />
+      <div class="header_container_img_rund">
+        <img class="header_img_rund" src="/img/Me.jpg" alt="Ein Bild von mir" />
       </div>
-      <!----- NAVIGATIONSLEIST ---
 
-      <nav class="menu">
-        <div class="nav-button">TEST</div>
-        <div class="nav-button">TEST</div>
-        <div class="nav-button">TEST</div>
-        <div class="nav-button">TEST</div>
+      <nav>
+        <ul class="header_nav">
+          <li>Menüpunkt 1</li>
+          <li>Menüpunkt 2</li>
+          <li>Menüpunkt 3</li>
+          <li>Menüpunkt 4</li>
+        </ul>
       </nav>
     </header>
-    --->
+
     <!----- ÜBERSCHRIFT ABOUT ME ----->
     <main>
-      <h1 class="aboutme">Joa Lehmann _ Web Developer _ 39 _ Leverkusen</h1>
+      <h1 class="main_headline_aboutme">
+        Joa Lehmann _ Web Developer _ 39 _ Leverkusen
+      </h1>
 
-      <!-----TEXT BOXEN: INTERESSEN SKILLS JOBWÜNSCHE ----->
+      <!----- TEXT BOXEN: INTERESSEN SKILLS JOBWÜNSCHE ----->
 
-      <section class="text-area">
-        <article class="text-container">
+      <section class="main_text_area">
+        <article class="main_text_container">
           <h2>Interessen</h2>
           <ul>
             <li>Trekking/Bergwandern</li>
@@ -55,7 +58,7 @@
             <li>Technikkram</li>
           </ul>
         </article>
-        <article class="text-container">
+        <article class="main_text_container">
           <h2>Skills</h2>
           <ul>
             <li>Geburtstage vergessen</li>
@@ -65,7 +68,7 @@
             <li>Sonnenbrillen verlieren</li>
           </ul>
         </article>
-        <article class="text-container">
+        <article class="main_text_container">
           <h2>Jobwünsche</h2>
           <ul>
             <li>50 Tage Urlaub</li>
@@ -76,41 +79,72 @@
           </ul>
         </article>
       </section>
+      <section>
+        <article class="main_text_lorem">
+          <h3>Lorem Ipsum blablablubb</h3>
+          <p>
+            <span
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              iusto, voluptatibus doloremque quia soluta minus assumenda
+              nesciunt aliquid magnam dolores corrupti numquam reiciendis
+              ratione rerum ducimus repellat dolore? Suscipit, nostrum!</span
+            ><span
+              >Distinctio accusamus dolorem in reprehenderit delectus aliquam
+              exercitationem iure non modi fugit sed, quos quod asperiores quasi
+              molestias debitis voluptas minus quo et dolorum officiis expedita.
+              Ducimus aut delectus voluptas!</span
+            ><span
+              >Facilis quidem culpa id doloribus. Vel, similique officia harum
+              itaque totam reiciendis perspiciatis dignissimos voluptatum
+              cumque! Ad natus quam enim, error eveniet magnam quidem vel
+              veritatis dolore animi, nesciunt dolorum!</span
+            >
+          </p>
+          <img
+            class="main_text_lorem_background_img"
+            src="./img/photo-1604597948314-e40652afb27a.jpeg"
+            alt="Bergfoto"
+          />
+        </article>
+      </section>
 
       <!----- SOCIAL MEDIA BUTTONS ----->
 
-      <section class="socialmedia">
-        <div class="container-email">
+      <section class="main_socialmedia_area">
+        <div>
           <button
             type="button"
             onclick="window.open('mailto:joa.lehmann@web.de','_blank')"
-            class="mediaboxes"
+            class="main_socialmedia_button"
           >
             <img
-              class="buttonlogos"
+              class="main_socialmedia_logos"
               src="/img/newemailoutlinesymbolinblackcircularbutton_104753.png"
             />
             Write me an E-Mail
           </button>
         </div>
-        <div class="container-git">
+        <div>
           <button
             type="button"
             onclick="window.open('https://github.com/JoaLehma','_blank')"
-            class="mediaboxes"
+            class="main_socialmedia_button"
           >
-            <img class="buttonlogos" src="/img/GitHub-Mark-120px-plus.png" />
+            <img
+              class="main_socialmedia_logos"
+              src="/img/GitHub-Mark-120px-plus.png"
+            />
             Follow me on Github
           </button>
         </div>
-        <div class="container-linkedin">
+        <div>
           <button
             type="button"
             onclick="window.open('https://www.linkedin.com/in/joachim-lehmann-51569b230/','_blank')"
-            class="mediaboxes"
+            class="main_socialmedia_button"
           >
             <img
-              class="buttonlogos"
+              class="main_socialmedia_logos"
               src="img/linkedin_black_logo_icon_147114.png"
             />
             Follow me on LinkedIn

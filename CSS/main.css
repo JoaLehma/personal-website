@@ -1,0 +1,80 @@
+/* --- ÜBERSCHRIFT ABOUT ME --- */
+
+.main_headline_aboutme {
+  color: teal;
+  margin-bottom: 4rem;
+  text-align: center;
+  border-top: dashed 1px var(--primary-color);
+  border-bottom: dashed 1px var(--primary-color);
+}
+
+/* --- TEXT BOXEN: INTERESSEN SKILLS JOBWÜNSCHE */
+
+.main_text_area {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-bottom: dashed 1px var(--primary-color);
+  padding-bottom: 2rem;
+}
+
+.main_text_container {
+  background-color: var(--primary-color);
+  color: var(--primary-contrast-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  width: 25rem;
+  height: 22rem;
+  box-shadow: 1rem 1rem 1rem rgb(12, 89, 88) inset;
+}
+
+.main_text_lorem {
+  max-width: fit-content;
+  background-color: var(--primary-color);
+  color: var(--primary-contrast-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_text_lorem_background_img {
+  border-radius: var(--border-radius);
+}
+
+/* --- SOCIAL MEDIA BUTTONS --- */
+
+.main_socialmedia_area {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.main_socialmedia_button {
+  width: 25rem;
+  height: 5rem;
+  background-color: var(--primary-contrast-color);
+  border-radius: var(--border-radius);
+  border: solid;
+  border-width: 0.1rem;
+  box-shadow: 1rem 1rem 1rem rgb(12, 89, 88);
+  color: teal;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_socialmedia_button:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-contrast-color);
+  cursor: pointer;
+}
+
+.main_socialmedia_logos {
+  width: 4rem;
+}
